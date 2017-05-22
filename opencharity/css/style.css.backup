@@ -1,0 +1,374 @@
+/*
+---OPENCHARITY THEME CSS FILE----
+*/
+
+html, body
+{
+  margin: 0px 0px 0px 0px;
+}
+
+.container
+{
+  margin: 0px 0px 0px 0px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container__page
+{
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+h1, h2, h3, h4, h5, h6, p, font
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a:link, a:active, a:hover, a:visited
+{
+  text-decoration: none;
+  color: initial;
+}
+
+/*----- HEADER -----*/
+
+#header
+{
+  margin: 0px 0px 0px 0px;
+  padding: 25px 90px 20px 90px;
+  width: calc(100% - 180px);
+  background-color: #ffffff;
+  position: fixed;
+}
+
+.menu
+{
+  float: right;
+  display: table;
+}
+
+.menu__a, .menu__a:link, .menu__a:active, .menu__a:hover, .menu__a:visited
+{
+  text-decoration: none;
+  color: initial;
+}
+
+.menu__link
+{
+  margin: 0px 15px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  border-radius: 2px;
+}
+
+.menu__link:hover
+{
+  padding: 8px 8px 8px 8px;
+  border: 2px solid #222222;
+}
+
+.menu__font
+{
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.menu__link--highlighted
+{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  border: 2px solid #99ccff;
+  border-radius: 2px;
+  color: #99ccff;
+}
+
+.menu__link--highlighted:hover
+{
+  background-color: #222222;
+  border-color: #cccccc;
+  color: #ffffff;
+}
+
+.menu__font--highlighted
+{
+  margin: 8px 20px 8px 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 15px;
+  color: inherit;
+  display: table;
+}
+
+.content__main
+{
+  padding: 84px 0px 0px 0px;
+}
+
+#first-time
+{
+  display: none;
+}
+
+#page-title
+{
+  display: none;
+}
+
+#summary
+{
+  margin: 0px 0px 0px 0px;
+  padding: 70px 0px 60px 0px;
+  width: 100%;
+  /*background-color: #444444;*/
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+#summary-title-font, .summary__font--title
+{
+  margin: 30px auto 30px auto;
+  font-size: 50px;
+}
+
+.summary-slogan, .summary__slogan
+{
+  margin: 30px auto 30px auto;
+}
+
+.summary-slogan-font, .summary__font--slogan
+{
+  font-size: 18px;
+}
+
+#summary-info-font, .summary__font--info
+{
+  font-size: 14px;
+}
+
+.node-welcome-page
+{
+  display: none;
+}
+
+/*----- NEXT EVENT -----*/
+
+#events-next
+{
+  padding: 40px 100px 40px 100px;
+  width: 100%;
+  width: calc(100% - 200px);
+  display: table;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#events-next-left
+{
+  display: table-cell;
+  float: left;
+  color: #222222;
+}
+
+#events-next-title
+{
+  margin: 0px 0px 10px 0px;
+  font-size: 20px;
+}
+
+#events-next-title-left
+{
+  color: #0099ff;
+}
+
+#events-next-title-right
+{
+
+}
+
+#events-next-info
+{
+  margin: 10px 0px 0px 0px;
+}
+
+#events-next-right
+{
+  display: table;
+  float: right;
+}
+
+#events-next-button
+{
+  padding: 12px 15px 12px 15px;
+  background-color: #0099ff;
+  border-radius: 2px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/*----- GROUPS -----*/
+
+#groups-container
+{
+  padding: 30px 0px 30px 0px;
+  width: 100%;
+  background-color: #ffffff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #444444;
+}
+
+#groups-title
+{
+  margin: 0px auto 30px auto;
+  display: table;
+}
+
+#groups-title-font
+{
+  font-size: 28px;
+}
+
+#groups
+{
+  margin: 0px auto 0px auto;
+  width: 90%;
+  width: calc(100% - 200px);
+  display: table;
+}
+
+.groups-column
+{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+
+.groups-info-font
+{
+  font-size: 14px;
+}
+
+.groups-button
+{
+  margin: 30px auto 30px auto;
+}
+
+.groups-button-font
+{
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #3399ff;
+  border-radius: 2px;
+  color: #3399ff;
+}
+
+ul.links, ul.inline
+{
+  display: none;
+}
+
+.node-readmore
+{
+  display: none;
+}
+
+/*----- FOOTER -----*/
+
+.container__footer
+{
+  width: 100%;
+}
+
+.footer
+{
+  margin: 120px 0px 0px 0px;
+  width: 100%;
+  height: 185px;
+  background-color: #555555;
+}
+
+.footer__columns
+{
+  margin: 0px 15px 0px 15px;
+  padding: 20px 20px 40px 20px;
+  width: calc(100% - 70px);
+  height: 240px;
+  position: relative;
+  top: -115px;
+  background-color: #ffffff;
+}
+
+.footer__title
+{
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer__font--title
+{
+  font-size: 26px;
+  color: #222222;
+}
+
+.node-blog
+{
+  padding: 0px 20px 0px 20px;
+  width: calc(25% - 40px);
+  height: 220px;
+  color: #3399ff;
+  display: table;
+  float: left;
+}
+
+.node-blog a
+{
+  margin: 10px 0px 20px 0px;
+  width: 100%;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #3399ff;
+  float: left;
+}
+
+.content
+{
+  color: #000000;
+}
+
+.submitted, .link-wrapper
+{
+  display: none;
+}
+
+.footer__copyright
+{
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #444444;
+}
+
+/*----- ADMINISTRATION -----*/
+
+.admin-list
+{
+  display: block;
+  text-align: center;
+}
+
+dt.admin-list
+{
+  color: #ffffff;
+}
+
+#blocks
+{
+  margin: 20px auto 20px auto;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  border-collapse: separate;
+}

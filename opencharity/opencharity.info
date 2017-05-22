@@ -1,0 +1,16 @@
+name = OpenCharity
+description = Theme made for OpenCharity.
+package = Core
+version = 1.0
+core = 7.x
+
+stylesheets[all][] = css/style.css
+
+regions[header] = Header
+regions[content] = Content
+regions[sidebar] = Sidebar
+
+regions[footer_content] = Footer Content
+regions[footer_copyright] = Footer Copyright
+
+settings[shortcut_module_link] = 0

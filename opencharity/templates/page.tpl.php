@@ -15,7 +15,7 @@
       ?>
 
       <div id="menu" class="menu">
-        <a href="./" class="menu-link menu__a">
+        <a href="./#mission" class="menu-link menu__a">
           <div class="menu__link">
             <font id="menu-font" class="menu__font">ABOUT OPEN CHARITY</font>
           </div>
@@ -25,7 +25,7 @@
             <font id="menu-font" class="menu__font">THE BLOG</font>
           </div>
         </a>
-        <a href="#groups-container" class="menu-link">
+        <a href="./#groups__container" class="menu-link">
           <div class="menu__link--highlighted">
             <font id="menu-font-blue" class="menu__font--highlighted">JOIN US</font>
           </div>

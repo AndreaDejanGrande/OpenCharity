@@ -643,16 +643,16 @@ hr
 
 .footer__links
 {
-  margin: 0px auto 0px auto;
-  width: auto;
-  height: 80px;
+  margin: 0px calc(~'50% - 100px') 0px calc(~'50% - 100px');
+  width: 200px;
+  height: 26px;
   display: table;
 }
 
 .footer__links > img
 {
-  margin: 27px 0px 0px 0px;
-  float: left;
+  margin: 0px 20px 0px 20px;
+  float: center;
   display: table-cell;
 }
 
@@ -742,4 +742,49 @@ hr
   {
     font-size: 46px;
   }
+}
+
+/*----- BLOG -----*/
+
+.block-blog
+{
+  text-align: center;
+}
+
+.block-blog h2
+{
+  font-size: 26px;
+}
+
+.block-blog ul
+{
+  margin: 20px auto 20px auto;
+  padding: 20px 0px 20px 0px;
+  display: table;
+  list-style-type: none;
+  color: #3399ff;
+}
+
+.block-blog li
+{
+  border: 1px solid #3399ff;
+  border-radius: 5px;
+  background: #3399ff - #222;
+  background: -webkit-linear-gradient(#3399ff - #222, #3399ff, #3399ff - #222);
+  background: -o-linear-gradient(#3399ff - #222, #3399ff, #3399ff - #222);
+  background: -moz-linear-gradient(#3399ff - #222, #3399ff, #3399ff - #222);
+  background: linear-gradient(#3399ff - #222, #3399ff, #3399ff - #222);
+}
+
+.block-blog li > a
+{
+  margin: 10px 15px 10px 15px;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.block-blog .more-link
+{
+  display: none;
 }

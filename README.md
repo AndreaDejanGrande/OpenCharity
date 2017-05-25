@@ -1,6 +1,6 @@
 # Testing theme made for OpenCharity using Drupal 7 framework.
 
-> CSS styling is written following BEM methodology (some exceptions may be required due to Drupal's default classes and ids) and also uses Less.js as prepocessor.
+> CSS styling is written following BEM methodology (some exceptions may be required due to Drupal's default classes and ids) and also uses Less as prepocessor.
 > The whole theme is made from scratch and includes some modified template files in its templates/ directory to achieve a better structure for both the site and the code; yet, what is displayed on the testing page defileback.com/projects/1/ mostly consists of html content inside of management blocks, therefore still letting the administrators easily modify paragraphs or switch positions between sections.
 
 > JavaScript has been avoided not to influence the pure HTML and CSS coding, yet could be really easily implemented if needed for some extra effects 
